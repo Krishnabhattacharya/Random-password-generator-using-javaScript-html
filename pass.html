@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <div id="box">
+        <h2>Password Generator</h2>
+        <div id="input">
+            <label for="inputl">Choose limit between 0-9 </label>
+            <input type="number" id="inputLimit" min="0" max="9">
+        </div>
+        <div id="pass">
+            <h1 id="h1">password</h1>
+        </div>
+        <div id="btn">
+            <button onclick="passgen()">Get Password</button>
+        </div>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>
